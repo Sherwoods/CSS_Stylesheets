@@ -32,8 +32,8 @@
 }
 .progress {
   height: 100%;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   overflow: hidden;
   border-radius: 2px;
 
