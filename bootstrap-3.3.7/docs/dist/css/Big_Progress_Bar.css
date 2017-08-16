@@ -71,7 +71,7 @@
           animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #D81E47;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .95) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .95) 50%, rgba(255, 255, 255, .95) 75%, transparent 75%, transparent);
