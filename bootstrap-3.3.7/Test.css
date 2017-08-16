@@ -1,0 +1,157 @@
+element.style {
+}
+@media screen and (min-width: 48em)
+.scroll-down-indicator {
+    display: block;
+}
+.scroll-down-indicator {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 50px;
+    z-index: 100;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div#wrapper.wrapper
+.wrapper {
+    width: 100%;
+    text-align: center;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+Inherited from body.default-marquee
+body {
+    line-height: 1;
+    color: #000;
+    background: #fff;
+    margin: 0;
+}
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+Inherited from html.tcom.is-desktop.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths.windows.no-touch
+body, html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+Pseudo ::before element
+.scroll-down-indicator:before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    z-index: -1;
+}
+.scroll-down-indicator:after, .scroll-down-indicator:before {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+Pseudo ::after element
+.scroll-down-indicator:after {
+    content: attr(data-text);
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: rgba(37,37,37,.5);
+    font-family: tcomSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .8125rem;
+    text-transform: uppercase;
+}
+.scroll-down-indicator:after, .scroll-down-indicator:before {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+*, :after, :before {
+    box-sizing: inherit;
+}

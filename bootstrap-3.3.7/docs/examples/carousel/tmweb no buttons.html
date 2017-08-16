@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>T-M Webportal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+    <script>
+        var page_gate_link = "http://tmhpcsvr12a/webclient";
+    	  var SDS_link = "http://internal.tm.com/MSDS.aspx";
+    	  var ncm_link = "http://nonconformmtl.tm.com/Default.aspx";
+    	  var qs_link = "http://www.tm.com/qslinks.htm";
+    	  var lts_link = "http://lts.tm.com";
+    	  var pls_link = "http://pls.tm.com/";
+        var email_link ="https://mail.transmatic.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.transmatic.com%2fowa%2f";
+        var SFC_link ="http://tmhpcas8/ShopFloorConnect/Account/Login.aspx";
+        var projects_link ="http://projects.tm.com/";
+        var ed_link ="http://employeedirectory.tm.com/";
+        var payroll_link ="https://eservices.paychex.com/secure/";
+    		var windchill_link ="http://pdm.tm.com/Windchill/netmarkets/jsp/net/wincomco/windchill/wincom/wcomfls/fls_search.jsp?id=LATEST_RELEASED";
+    		</script>
+
+  </head>
+   <body class="bg img4">
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top shadow2">
+            <h3><img class="navbar-brand" src="images\TM_Logo_SVG\Main.svg" height="20px">| webportal</h3>
+        </nav>
+      </div>
+    </div> 
+
+<!-- NAVBAR
+================================================== 
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <img class="navbar-brand" src="images\TM Logo SVG\Main.svg">
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">TM Webportal</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+-->
+
+    <!-- Carousel
+    ================================================== -->
+    <!--<div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+<!--
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images\TM Logo SVG\Main.svg" height="20px" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+<!--<div class="container">
+<div class="jumbotron text-center">
+  
+    <img class="navbar-brand" src="images\TM Logo SVG\Main.svg" height="20px">
+    <h1> TM Webortal</h1>
+    -->
+  <!-- Subtext -->
+   <!-- <p>Resize this responsive page to see the effect!</p>  -->
+
+             
+  
+    <div class="container marketing">
+
+      <div class="marketing page-header">
+        <h4>Open access <small></small></h4>
+      </div>
+   <!-- <h3 class="media-heading text-center">Open Access</h3><br>-->
+
+      <!-- Three columns of text below the carousel -->
+        <div class="row">
+
+        <div class="col-lg-4">
+          <a  href="" ID="Page_Gate2">
+          <img class="image-icon" src="images/new-pager.svg" alt="Generic placeholder image"></img>
+          </a>
+          <a href="" ID="Page_Gate1"><h3>Page Gate</h3></a>
+					<p>Send an internal page or text</p>
+         
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <a href="" ID="SDS1">
+          <img class="image-icon" src="images/chemical-composition.svg" alt="Generic placeholder image" ></img>
+          </a>
+          <a href="" ID="SDS2"> <h3>SDS Lookup</h3> </a>
+          <p>SDS Lookup</p>
+          
+        </div>
+
+        <div class="col-lg-4">
+          <a href="" ID="ncm1">
+          <img class="image-icon" src="images/bad-grades.svg" alt="Generic placeholder image" ></img>
+          </a>
+          <a href="" ID="ncm2"><h3>Non-Conforming Material</h3></a>
+          <p>View and manage nonconforming raw material</p>
+         
+        </div>
+
+        <div class="col-lg-4">
+          <a href="" ID="qs1">
+          <img class="image-icon"  src="images/documents-button.svg" alt="Generic placeholder image" ></img>
+          </a>
+          <a href="" ID="qs2"><h3>QS/TS Documents</h3></a>
+          <p>Internal Process Documentation</p>
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="lts1">
+          <img class="image-icon"   src="images/LTS_Logo_Black.svg" alt="Generic placeholder image" ></img>
+          </a>
+          <a href="" ID="lts2"><h3>LTS</h3></a>
+          <p>Lab tracking system</p>
+        
+          
+        </div><!-- /.col-lg-4 -->
+       
+    </div>
+  <!-- End unsecured applications section-->
+    
+<div class="page-header">
+  <h4>Secure access<small> (Login Required)</small></h4>
+</div>
+   <!-- <hr class="featurette-divider">-->     <!-- Line that seperates the sections-->
+
+    <!-- start secured applications section-->
+    <!-- <h3 class="media-heading darkpink-t text-center">Secured Access</h3>
+    <br> 
+    -->
+    <div class="row">
+      <div class="col-lg-4">
+          <a href="" ID="pls1"><img class="image-icon"  src="images/speed.svg" alt="Generic placeholder image"> </img></a>
+          <a href="" ID="pls2"><h3>PLS </h3></a>
+          <p>Product launch system</p>
+          
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="email1"><img class="image-icon"  src="images/mail.svg" alt="Generic placeholder image" ></a>
+          <a href="" ID="email2"><h3>Email</h3></a>
+          <p>Outlook web mail access</p>
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="SFC1"><img class="image-icon"  src="images/press.svg" alt="Generic placeholder image" ></a>
+          <a href="" ID="SFC2"><h3>SFC</h3></a>
+          <p>Access shop floor connect</p>
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="projects1"><img class="image-icon"  src="images/chart-gantt.svg" alt="Generic placeholder image" ></a>
+          <a href="" ID="projects2"><h3>Projects</h3></a>
+          <p>Internal project tracking system</p>
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="ED1"><img class="image-icon"  src="images/open-book.svg" alt="Generic placeholder image" ></a>
+          <a href="" ID="ED2"><h3>Employee Directory</h3></a>
+          <p>Printable employee directory</p>
+        </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+          <a href="" ID="windchill1"><img class="image-icon"  src="images/windchill2.svg" alt="Generic placeholder image" ></a>
+          <a href="" ID="windchill2"><h3>Windchill</h3></a>
+          <p>Engineering data management</p>
+        </div><!-- /.col-lg-4 -->
+
+
+
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES 
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">Plex online. <span class="text-muted">Wondering where something should go? Try Plex!</span></h3>
+          <p class="lead">Plex is our primary software of choice. It is full of features and in most cases, it is right place to go and get something done.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h3 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h3>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h3>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Trans-Matic, Inc. </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+  <script>
+		document.getElementById("Page_Gate1").href = page_gate_link;
+		document.getElementById("Page_Gate2").href = page_gate_link;
+		document.getElementById("Page_Gate3").href = page_gate_link;
+	</script>
+	<script>
+		document.getElementById("SDS1").href = SDS_link;
+		document.getElementById("SDS2").href = SDS_link;
+		document.getElementById("SDS3").href = SDS_link;
+	</script>
+	<script>
+		document.getElementById("ncm1").href = ncm_link;
+		document.getElementById("ncm2").href = ncm_link;
+		document.getElementById("ncm3").href = ncm_link;
+	</script>
+	<script>
+		document.getElementById("qs1").href = qs_link;
+		document.getElementById("qs2").href = qs_link;
+		document.getElementById("qs3").href = qs_link;
+	</script>
+	<script>
+		document.getElementById("lts1").href = lts_link;
+		document.getElementById("lts2").href = lts_link;
+		document.getElementById("lts3").href = lts_link;
+	</script>
+	<script>
+		document.getElementById("projects1").href = projects_link;
+		document.getElementById("projects2").href = projects_link;
+		document.getElementById("projects3").href = projects_link;
+	</script>
+	<script>
+		document.getElementById("email1").href = email_link;
+		document.getElementById("email2").href = email_link;
+		document.getElementById("email3").href = email_link;
+	</script>
+	<script>
+		document.getElementById("SFC1").href = SFC_link;
+		document.getElementById("SFC3").href = SFC_link;
+		document.getElementById("SFC2").href = SFC_link;
+	</script>
+	<script>
+		document.getElementById("ED1").href = ed_link;
+		document.getElementById("ED2").href = ed_link;
+		document.getElementById("ED3").href = ed_link;
+	</script>
+	<script>
+		document.getElementById("lts1").href = lts_link;
+		document.getElementById("lts2").href = lts_link;
+		document.getElementById("lts3").href = lts_link;
+	</script>
+	<script>
+		document.getElementById("windchill1").href = windchill_link;
+		document.getElementById("windchill2").href = windchill_link;
+		document.getElementById("windchill3").href = windchill_link;
+	</script>
+	<script>
+		document.getElementById("payroll1").href = payroll_link;
+		document.getElementById("payroll2").href = payroll_link;
+		document.getElementById("payroll3").href = payroll_link;
+	</script>
+	<script>
+		document.getElementById("paychex1").href = paychex_link;
+		document.getElementById("paychex2").href = paychex_link;
+		document.getElementById("paychex3").href = paychex_link;
+	</script>
+	<script>
+		document.getElementById("pls1").href = pls_link;
+		document.getElementById("pls2").href = pls_link;
+		document.getElementById("pls3").href = pls_link;
+	</script>
+</html>
